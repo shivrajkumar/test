@@ -1,0 +1,28 @@
+{
+  "name": "@gluestack/glue-plugin-mobile",
+  "version": "0.0.1",
+  "description": "Create an Application using GlueStack framework",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gluestack/create-gluestack-app"
+  },
+  "keywords": [
+    "npm",
+    "create-gluestack-app"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.11.17"
+  },
+  "main": "dist/src/index.js",
+  "scripts": {
+    "plugin-dev": "tsc --watch",
+    "plugin-build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  },
+  "peerDependencies": {
+    "@gluestack/framework": "^0.0.12"
+  }
+}
